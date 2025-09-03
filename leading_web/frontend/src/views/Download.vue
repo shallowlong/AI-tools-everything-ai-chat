@@ -20,8 +20,8 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <!-- Windows 版本 -->
           <div class="card p-8 text-center">
-            <div class="w-20 h-20 mx-auto mb-6 bg-blue-100 rounded-2xl flex items-center justify-center">
-              <Monitor class="w-10 h-10 text-blue-600" />
+            <div class="w-20 h-20 mx-auto mb-6 bg-primary-100 rounded-2xl flex items-center justify-center">
+              <Monitor class="w-10 h-10 text-primary-600" />
             </div>
             <h3 class="text-2xl font-bold text-gray-900 mb-4">Windows版本</h3>
             <p class="text-gray-600 mb-6">
@@ -140,7 +140,7 @@
           <!-- Windows安装 -->
           <div>
             <h3 class="text-xl font-semibold text-gray-900 mb-6 flex items-center">
-              <Monitor class="w-6 h-6 mr-2 text-blue-600" />
+              <Monitor class="w-6 h-6 mr-2 text-primary-600" />
               Windows安装
             </h3>
             <ol class="space-y-4 text-gray-600">
@@ -220,13 +220,13 @@
         <h2 class="text-3xl font-bold mb-6">
           需要帮助？
         </h2>
-        <p class="text-xl text-blue-100 mb-8">
+        <p class="text-xl text-orange-100 mb-8">
           如果您在下载或安装过程中遇到问题，我们很乐意为您提供帮助
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <router-link 
             to="/docs" 
-            class="btn btn-lg bg-white text-primary-600 hover:bg-blue-50"
+            class="btn btn-lg bg-white text-primary-600 hover:bg-orange-50"
           >
             <Book class="w-5 h-5 mr-2" />
             查看文档

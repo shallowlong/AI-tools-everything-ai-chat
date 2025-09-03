@@ -262,7 +262,7 @@ export default {
 }
 
 .debug-control-btn.pin.active {
-  background: #3498db;
+  background: #e5613a;
   color: white;
 }
 
@@ -328,7 +328,7 @@ export default {
 }
 
 .debug-message.debug-stream {
-  border-left-color: #3498db;
+  border-left-color: #e5613a;
 }
 
 .debug-message.debug-result {

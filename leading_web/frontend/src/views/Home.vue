@@ -1,27 +1,27 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-br from-blue-600 via-purple-700 to-indigo-800 text-white overflow-hidden">
+    <section class="relative bg-gradient-primary text-white overflow-hidden">
       <div class="absolute inset-0 bg-black opacity-20"></div>
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div class="text-center">
-          <h1 class="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
+          <h1 class="text-4xl md:text-6xl font-bold mb-6 animate-fade-in text-white">
             Everything AI Chat
           </h1>
-          <p class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto animate-slide-up">
+          <p class="text-xl md:text-2xl text-orange-100 mb-8 max-w-3xl mx-auto animate-slide-up">
             基于Everything搜索引擎的AI智能文件搜索客户端，让文件搜索更智能、更高效
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <router-link
               to="/download"
-              class="btn btn-lg bg-white text-blue-600 hover:bg-blue-50 px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all"
+              class="btn btn-lg bg-white text-primary-600 hover:bg-orange-50 px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all"
             >
               <Download class="w-5 h-5 mr-2" />
               立即下载
             </router-link>
             <router-link
               to="/features"
-              class="btn btn-lg btn-outline border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 text-lg"
+              class="btn btn-lg btn-outline border-white text-white hover:bg-white hover:text-primary-600 px-8 py-4 text-lg"
             >
               了解更多
             </router-link>
@@ -97,7 +97,7 @@
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div v-for="stat in stats" :key="stat.label">
             <div class="text-3xl md:text-4xl font-bold mb-2">{{ stat.value }}</div>
-            <div class="text-blue-100">{{ stat.label }}</div>
+            <div class="text-orange-100">{{ stat.label }}</div>
           </div>
         </div>
       </div>

@@ -20,8 +20,8 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <!-- 特性1: 极速搜索 -->
           <div>
-            <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mb-6">
-              <Zap class="w-8 h-8 text-blue-600" />
+            <div class="w-16 h-16 bg-primary-100 rounded-2xl flex items-center justify-center mb-6">
+              <Zap class="w-8 h-8 text-primary-600" />
             </div>
             <h2 class="text-3xl font-bold text-gray-900 mb-4">毫秒级极速搜索</h2>
             <p class="text-lg text-gray-600 mb-6">
@@ -43,9 +43,9 @@
             </ul>
           </div>
           <div class="bg-white rounded-2xl shadow-xl p-8">
-            <div class="aspect-video bg-gradient-to-br from-blue-50 to-indigo-100 rounded-xl flex items-center justify-center">
+            <div class="aspect-video bg-gradient-to-br from-orange-50 to-red-100 rounded-xl flex items-center justify-center">
               <div class="text-center">
-                <Search class="w-16 h-16 text-blue-500 mx-auto mb-4" />
+                <Search class="w-16 h-16 text-primary-500 mx-auto mb-4" />
                 <p class="text-gray-600">搜索演示区域</p>
               </div>
             </div>
@@ -58,17 +58,17 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div class="bg-gray-50 rounded-2xl shadow-xl p-8 order-2 lg:order-1">
-            <div class="aspect-video bg-gradient-to-br from-purple-50 to-pink-100 rounded-xl flex items-center justify-center">
+            <div class="aspect-video bg-gradient-to-br from-orange-50 to-red-100 rounded-xl flex items-center justify-center">
               <div class="text-center">
-                <MessageCircle class="w-16 h-16 text-purple-500 mx-auto mb-4" />
+                <MessageCircle class="w-16 h-16 text-primary-500 mx-auto mb-4" />
                 <p class="text-gray-600">AI对话演示区域</p>
               </div>
             </div>
           </div>
           <!-- 特性2: AI智能对话 -->
           <div class="order-1 lg:order-2">
-            <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mb-6">
-              <Brain class="w-8 h-8 text-purple-600" />
+            <div class="w-16 h-16 bg-primary-100 rounded-2xl flex items-center justify-center mb-6">
+              <Brain class="w-8 h-8 text-primary-600" />
             </div>
             <h2 class="text-3xl font-bold text-gray-900 mb-4">AI智能对话</h2>
             <p class="text-lg text-gray-600 mb-6">
@@ -214,13 +214,13 @@
         <h2 class="text-3xl md:text-4xl font-bold mb-6">
           体验智能文件搜索的魅力
         </h2>
-        <p class="text-xl text-blue-100 mb-8">
+        <p class="text-xl text-orange-100 mb-8">
           立即下载Everything AI Chat，开启高效的文件管理新时代
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <router-link 
             to="/download" 
-            class="btn btn-lg bg-white text-primary-600 hover:bg-blue-50 px-8 py-4 text-lg"
+            class="btn btn-lg bg-white text-primary-600 hover:bg-orange-50 px-8 py-4 text-lg"
           >
             <Download class="w-5 h-5 mr-2" />
             立即下载

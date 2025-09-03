@@ -1099,7 +1099,7 @@ Everything搜索语法规则：
   width: 700px;
   max-width: 90vw;
   max-height: 90vh;
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(229, 97, 58, 0.2);
   border-radius: 16px;
   box-shadow: var(--shadow-glass);
   backdrop-filter: blur(20px);
@@ -1127,7 +1127,7 @@ Everything搜索语法规则：
   align-items: center;
   padding: 24px;
   background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(248,250,255,0.95) 100%);
-  border-bottom: 1px solid rgba(102, 126, 234, 0.1);
+  border-bottom: 1px solid rgba(229, 97, 58, 0.1);
 }
 
 .config-header h2 {
@@ -1144,7 +1144,7 @@ Everything搜索语法规则：
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(229, 97, 58, 0.2);
   border-radius: 50%;
   font-size: 18px;
   cursor: pointer;
@@ -1174,7 +1174,7 @@ Everything搜索语法规则：
 .config-section {
   margin-bottom: 32px;
   background: rgba(255, 255, 255, 0.6);
-  border: 1px solid rgba(102, 126, 234, 0.1);
+  border: 1px solid rgba(229, 97, 58, 0.1);
   border-radius: 12px;
   padding: 20px;
   backdrop-filter: blur(10px);
@@ -1224,7 +1224,7 @@ Everything搜索语法规则：
   width: 100%;
   height: 44px;
   padding: 0 16px;
-  border: 2px solid rgba(102, 126, 234, 0.2);
+  border: 2px solid rgba(229, 97, 58, 0.2);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(10px);
@@ -1239,7 +1239,7 @@ Everything搜索语法规则：
 .form-select:focus {
   border-color: var(--primary-color);
   background: rgba(255, 255, 255, 0.95);
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  box-shadow: 0 0 0 3px rgba(229, 97, 58, 0.1);
   transform: translateY(-1px);
 }
 
@@ -1257,7 +1257,7 @@ Everything搜索语法规则：
   gap: 16px;
   padding: 16px;
   background: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(229, 97, 58, 0.2);
   border-radius: 8px;
   margin-bottom: 16px;
   backdrop-filter: blur(10px);
@@ -1304,7 +1304,7 @@ Everything搜索语法规则：
 
 .info-box {
   background: rgba(255, 255, 255, 0.6);
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(229, 97, 58, 0.2);
   border-radius: 8px;
   padding: 16px;
   backdrop-filter: blur(10px);
@@ -1335,7 +1335,7 @@ Everything搜索语法规则：
   gap: 16px;
   padding: 24px;
   background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(248,250,255,0.95) 100%);
-  border-top: 1px solid rgba(102, 126, 234, 0.1);
+  border-top: 1px solid rgba(229, 97, 58, 0.1);
 }
 
 .cancel-button,
@@ -1354,13 +1354,13 @@ Everything搜索语法规则：
 .cancel-button {
   background: rgba(255, 255, 255, 0.8);
   color: var(--text-secondary);
-  border-color: rgba(102, 126, 234, 0.2);
+  border-color: rgba(229, 97, 58, 0.2);
 }
 
 .cancel-button:hover {
   background: rgba(255, 255, 255, 0.95);
   color: var(--text-primary);
-  border-color: rgba(102, 126, 234, 0.4);
+  border-color: rgba(229, 97, 58, 0.4);
   transform: translateY(-1px);
 }
 
@@ -1427,7 +1427,7 @@ Everything搜索语法规则：
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(229, 97, 58, 0.2);
   border-top: none;
   border-radius: 0 0 8px 8px;
   max-height: 200px;
@@ -1528,7 +1528,7 @@ Everything搜索语法规则：
 .manual-path-button.secondary {
   background: rgba(255, 255, 255, 0.8);
   color: var(--text-secondary);
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(229, 97, 58, 0.2);
   border-radius: 8px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -1645,7 +1645,7 @@ Everything搜索语法规则：
   margin-top: 12px;
   padding: 12px 16px;
   background: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(229, 97, 58, 0.2);
   border-radius: 8px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -1660,7 +1660,7 @@ Everything搜索语法规则：
 /* 当前配置样式 */
 .current-config {
   background: rgba(255, 255, 255, 0.7);
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(229, 97, 58, 0.2);
   border-radius: 8px;
   padding: 16px;
   margin: 20px 0;
@@ -1708,7 +1708,7 @@ Everything搜索语法规则：
 /* 端口配置样式 */
 .port-config-section {
   background: rgba(255, 255, 255, 0.7);
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(229, 97, 58, 0.2);
   border-radius: 8px;
   padding: 16px;
   margin: 20px 0;
@@ -1761,7 +1761,7 @@ Everything搜索语法规则：
   margin-top: 12px;
   padding: 16px;
   background: rgba(255, 255, 255, 0.5);
-  border: 1px solid rgba(102, 126, 234, 0.1);
+  border: 1px solid rgba(229, 97, 58, 0.1);
   border-radius: 6px;
 }
 
@@ -1802,7 +1802,7 @@ Everything搜索语法规则：
   padding: 4px 8px;
   background: rgba(255, 255, 255, 0.8);
   color: var(--text-secondary);
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(229, 97, 58, 0.2);
   border-radius: 4px;
   font-size: 12px;
   cursor: pointer;
@@ -1822,7 +1822,7 @@ Everything搜索语法规则：
   background: var(--primary-color);
   color: white;
   border-color: var(--primary-color);
-  box-shadow: 0 2px 4px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 2px 4px rgba(229, 97, 58, 0.3);
 }
 
 /* 凭据显示样式 */
@@ -1848,7 +1848,7 @@ Everything搜索语法规则：
   margin-bottom: 8px;
   padding: 8px;
   background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(229, 97, 58, 0.2);
   border-radius: 6px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -1917,7 +1917,7 @@ Everything搜索语法规则：
 }
 
 .section-header:hover {
-  background: rgba(102, 126, 234, 0.05);
+  background: rgba(229, 97, 58, 0.05);
   border-radius: 8px;
   padding: 8px 12px;
   margin: -4px -8px 0 -8px;
@@ -1925,7 +1925,7 @@ Everything搜索语法规则：
 
 .collapse-button {
   background: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(229, 97, 58, 0.2);
   border-radius: 4px;
   padding: 4px 8px;
   cursor: pointer;
@@ -1938,7 +1938,7 @@ Everything搜索语法规则：
 }
 
 .collapse-button:hover {
-  background: rgba(102, 126, 234, 0.1);
+  background: rgba(229, 97, 58, 0.1);
   border-color: var(--primary-color);
   color: var(--primary-color);
 }
@@ -1970,7 +1970,7 @@ Everything搜索语法规则：
 .form-textarea {
   width: 100%;
   padding: 12px 16px;
-  border: 2px solid rgba(102, 126, 234, 0.2);
+  border: 2px solid rgba(229, 97, 58, 0.2);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(10px);
@@ -1988,7 +1988,7 @@ Everything搜索语法规则：
 .form-textarea:focus {
   border-color: var(--primary-color);
   background: rgba(255, 255, 255, 0.95);
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  box-shadow: 0 0 0 3px rgba(229, 97, 58, 0.1);
   transform: translateY(-1px);
 }
 
@@ -2007,7 +2007,7 @@ Everything搜索语法规则：
 .reset-prompt-button,
 .preview-button {
   padding: 8px 16px;
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(229, 97, 58, 0.2);
   border-radius: 6px;
   font-size: 13px;
   font-weight: 500;
@@ -2043,7 +2043,7 @@ Everything搜索语法规则：
 
 .prompt-preview {
   background: rgba(248, 250, 252, 0.9);
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(229, 97, 58, 0.2);
   border-radius: 8px;
   padding: 16px;
   margin: 16px 0;
@@ -2067,7 +2067,7 @@ Everything搜索语法规则：
 
 .preview-content {
   background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(102, 126, 234, 0.1);
+  border: 1px solid rgba(229, 97, 58, 0.1);
   border-radius: 6px;
   padding: 12px;
   font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
@@ -2242,7 +2242,7 @@ Everything搜索语法规则：
   gap: 8px;
   padding: 16px;
   background: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(229, 97, 58, 0.2);
   border-radius: 8px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);

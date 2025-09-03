@@ -90,7 +90,7 @@
             <h2 class="text-2xl font-semibold text-gray-900 mb-4">Cookie 使用</h2>
             <p class="text-gray-600 mb-4">
               我们使用 Cookie 和类似技术来改善您的使用体验。详细信息请查看我们的 
-              <router-link to="/cookies" class="text-blue-600 hover:text-blue-700">Cookie 政策</router-link>。
+              <router-link to="/cookies" class="text-primary-600 hover:text-primary-700">Cookie 政策</router-link>。
             </p>
           </section>
 
@@ -109,10 +109,10 @@
             </p>
             <div class="bg-gray-50 p-4 rounded-lg">
               <p class="text-gray-600">
-                邮箱：<a href="mailto:eac@jieshi.space" class="text-blue-600 hover:text-blue-700">eac@jieshi.space</a>
+                邮箱：<a href="mailto:eac@jieshi.space" class="text-primary-600 hover:text-primary-700">eac@jieshi.space</a>
               </p>
               <p class="text-gray-600">
-                GitHub：<a href="https://github.com/MaskerPRC/everything-ai-chat" target="_blank" class="text-blue-600 hover:text-blue-700">MaskerPRC/everything-ai-chat</a>
+                GitHub：<a href="https://github.com/MaskerPRC/everything-ai-chat" target="_blank" class="text-primary-600 hover:text-primary-700">MaskerPRC/everything-ai-chat</a>
               </p>
             </div>
           </section>

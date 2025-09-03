@@ -1168,14 +1168,14 @@ export default {
   justify-content: space-between;
   align-items: center;
   padding: 8px 16px;
-  background: #f8f9fa;
-  border-top: 1px solid #e9ecef;
-  border-bottom: 1px solid #e9ecef;
+  background: #f5f5f5;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
   margin-bottom: 8px;
 }
 
 .debug-info .debug-status {
-  color: #495057;
+  color: #616161;
   font-weight: 500;
   font-size: 14px;
 }
@@ -1190,7 +1190,7 @@ export default {
   align-items: center;
   gap: 6px;
   padding: 6px 12px;
-  background: #0d6efd;
+  background: #e5613a;
   color: white;
   border: none;
   border-radius: 4px;
@@ -1200,7 +1200,7 @@ export default {
 }
 
 .debug-action-button:hover {
-  background: #0b5ed7;
+  background: #d14c2a;
   transform: translateY(-1px);
 }
 

@@ -116,11 +116,11 @@
   
   /* 渐变背景 */
   .bg-gradient-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #e5613a 0%, #d14721 100%);
   }
   
   .bg-gradient-secondary {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(135deg, #e5613a 0%, #b3371a 100%);
   }
   
   /* 自定义滚动条 */

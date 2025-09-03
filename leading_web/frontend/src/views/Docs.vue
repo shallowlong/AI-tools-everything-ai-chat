@@ -63,9 +63,9 @@
               <h2 class="text-3xl font-bold text-gray-900 mb-6">基础功能</h2>
               
               <div class="space-y-8">
-                <div class="card p-6 bg-blue-50 border-l-4 border-blue-400">
+                <div class="card p-6 bg-orange-50 border-l-4 border-primary-400">
                   <h3 class="text-xl font-semibold text-gray-900 mb-3">
-                    <Search class="w-5 h-5 inline mr-2 text-blue-600" />
+                    <Search class="w-5 h-5 inline mr-2 text-primary-600" />
                     文件搜索
                   </h3>
                   <div class="prose">
@@ -79,9 +79,9 @@
                   </div>
                 </div>
 
-                <div class="card p-6 bg-purple-50 border-l-4 border-purple-400">
+                <div class="card p-6 bg-orange-50 border-l-4 border-primary-400">
                   <h3 class="text-xl font-semibold text-gray-900 mb-3">
-                    <MessageCircle class="w-5 h-5 inline mr-2 text-purple-600" />
+                    <MessageCircle class="w-5 h-5 inline mr-2 text-primary-600" />
                     AI 智能对话
                   </h3>
                   <div class="prose">

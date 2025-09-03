@@ -69,7 +69,7 @@
             <h2 class="text-2xl font-semibold text-gray-900 mb-4">隐私保护</h2>
             <p class="text-gray-600 mb-4">
               我们重视您的隐私。有关我们如何收集、使用和保护您的信息的详细说明，
-              请参阅我们的 <router-link to="/privacy" class="text-blue-600 hover:text-blue-700">隐私政策</router-link>。
+              请参阅我们的 <router-link to="/privacy" class="text-primary-600 hover:text-primary-700">隐私政策</router-link>。
             </p>
           </section>
 
@@ -123,10 +123,10 @@
             </p>
             <div class="bg-gray-50 p-4 rounded-lg">
               <p class="text-gray-600">
-                邮箱：<a href="mailto:eac@jieshi.space" class="text-blue-600 hover:text-blue-700">eac@jieshi.space</a>
+                邮箱：<a href="mailto:eac@jieshi.space" class="text-primary-600 hover:text-primary-700">eac@jieshi.space</a>
               </p>
               <p class="text-gray-600">
-                GitHub：<a href="https://github.com/MaskerPRC/everything-ai-chat" target="_blank" class="text-blue-600 hover:text-blue-700">MaskerPRC/everything-ai-chat</a>
+                GitHub：<a href="https://github.com/MaskerPRC/everything-ai-chat" target="_blank" class="text-primary-600 hover:text-primary-700">MaskerPRC/everything-ai-chat</a>
               </p>
             </div>
           </section>

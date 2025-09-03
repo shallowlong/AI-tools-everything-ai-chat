@@ -34,7 +34,7 @@
             <p class="text-gray-600 mb-4">我们使用以下类型的 Cookie：</p>
             
             <div class="space-y-6">
-              <div class="border-l-4 border-blue-500 pl-4">
+              <div class="border-l-4 border-primary-500 pl-4">
                 <h3 class="font-semibold text-gray-900 mb-2">必需 Cookie</h3>
                 <p class="text-gray-600 text-sm">
                   这些 Cookie 对网站正常运行必不可少，无法禁用。包括会话管理、安全验证等功能。
@@ -55,7 +55,7 @@
                 </p>
               </div>
 
-              <div class="border-l-4 border-purple-500 pl-4">
+              <div class="border-l-4 border-primary-500 pl-4">
                 <h3 class="font-semibold text-gray-900 mb-2">性能 Cookie</h3>
                 <p class="text-gray-600 text-sm">
                   收集网站性能数据，如加载时间、错误信息等，用于技术优化。
@@ -124,7 +124,7 @@
             <p class="text-gray-600 mb-4">您可以通过以下方式管理 Cookie：</p>
             
             <div class="space-y-4">
-              <div class="bg-blue-50 p-4 rounded-lg">
+              <div class="bg-orange-50 p-4 rounded-lg">
                 <h4 class="font-semibold text-gray-900 mb-2">浏览器设置</h4>
                 <p class="text-gray-600 text-sm">
                   大多数浏览器允许您控制 Cookie 设置。您可以选择接受、拒绝或删除 Cookie。
@@ -193,10 +193,10 @@
             </p>
             <div class="bg-gray-50 p-4 rounded-lg">
               <p class="text-gray-600">
-                邮箱：<a href="mailto:eac@jieshi.space" class="text-blue-600 hover:text-blue-700">eac@jieshi.space</a>
+                邮箱：<a href="mailto:eac@jieshi.space" class="text-primary-600 hover:text-primary-700">eac@jieshi.space</a>
               </p>
               <p class="text-gray-600">
-                GitHub：<a href="https://github.com/MaskerPRC/everything-ai-chat" target="_blank" class="text-blue-600 hover:text-blue-700">MaskerPRC/everything-ai-chat</a>
+                GitHub：<a href="https://github.com/MaskerPRC/everything-ai-chat" target="_blank" class="text-primary-600 hover:text-primary-700">MaskerPRC/everything-ai-chat</a>
               </p>
             </div>
           </section>

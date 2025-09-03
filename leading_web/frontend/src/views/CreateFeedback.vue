@@ -153,12 +153,12 @@
       </div>
 
       <!-- 提示信息 -->
-      <div class="mt-8 card p-6 bg-blue-50 border-l-4 border-blue-400">
+      <div class="mt-8 card p-6 bg-orange-50 border-l-4 border-primary-400">
         <div class="flex items-start space-x-3">
-          <Lightbulb class="w-6 h-6 text-blue-600 mt-0.5" />
+          <Lightbulb class="w-6 h-6 text-primary-600 mt-0.5" />
           <div>
-            <h3 class="font-medium text-blue-900 mb-2">提交反馈小贴士</h3>
-            <ul class="text-sm text-blue-800 space-y-1">
+            <h3 class="font-medium text-primary-900 mb-2">提交反馈小贴士</h3>
+            <ul class="text-sm text-primary-800 space-y-1">
               <li>• 请尽量详细描述问题或建议，这有助于我们更好地理解和处理</li>
               <li>• Bug报告请包含重现步骤、预期行为和实际行为</li>
               <li>• 功能建议请说明使用场景和具体需求</li>
@@ -201,7 +201,7 @@ const feedbackTypes = [
     label: '功能建议',
     description: '希望添加新功能或改进现有功能',
     icon: Star,
-    color: 'text-blue-600'
+    color: 'text-primary-600'
   }
 ]
 
