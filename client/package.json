@@ -1,6 +1,6 @@
 {
   "name": "everything-ai-chat",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "基于Everything搜索服务的AI智能文件搜索客户端",
   "main": "src/main/main.js",
   "scripts": {
@@ -62,6 +62,10 @@
       {
         "from": "dist-vue",
         "to": "dist-vue"
+      },
+      {
+        "from": "src/asserts/logo.png",
+        "to": "logo.png"
       }
     ],
     "win": {

@@ -224,8 +224,8 @@ function createTray() {
     // 开发环境：从源码目录加载图标
     iconPath = path.join(__dirname, '../asserts/logo.png');
   } else {
-    // 生产环境：从资源目录加载图标
-    iconPath = path.join(process.resourcesPath, 'app.asar', 'src', 'asserts', 'logo.png');
+    // 生产环境：使用构建时复制的固定路径logo文件
+    iconPath = path.join(process.resourcesPath, 'logo.png');
   }
 
   // 创建图标，如果文件不存在则使用默认图标
