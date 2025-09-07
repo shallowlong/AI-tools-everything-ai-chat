@@ -1,6 +1,6 @@
 # Everything AI Chat 落地页项目
 
-基于 Node.js + Vue 3 + SQLite 的完整落地页项目，包含用户认证、反馈系统、投票功能等。
+基于 Node.js + Vue 3 + SQLite 的完整落地页项目，包含桌面版的全部功能并且添加了用户认证、反馈系统、投票功能等。
 
 ## 🚀 项目特性
 
@@ -50,6 +50,7 @@ leading_web/
 ## 🛠 技术栈
 
 ### 后端
+
 - **Node.js** - 运行时环境
 - **Express** - Web框架
 - **SQLite** - 数据库
@@ -57,6 +58,7 @@ leading_web/
 - **GitHub OAuth** - 第三方登录
 
 ### 前端
+
 - **Vue 3** - 渐进式JavaScript框架
 - **Vite** - 构建工具
 - **Vue Router** - 路由管理
@@ -126,34 +128,39 @@ github: {
 
 ## 🌐 访问地址
 
-- **前端应用**: http://localhost:5173
-- **后端API**: http://localhost:3001
-- **API文档**: http://localhost:3001/health
+- **前端应用**: <http://localhost:5173>
+- **后端API**: <http://localhost:3001>
+- **API文档**: <http://localhost:3001/health>
 
 ## 📚 主要功能
 
 ### 用户认证
+
 - GitHub OAuth 登录/登出
 - 用户信息管理
 - 会话状态维护
 
 ### 反馈系统
+
 - 创建Bug报告和功能建议
 - 按分类和状态筛选反馈
 - 反馈详情查看和编辑
 - 优先级设置
 
 ### 投票系统
+
 - 对反馈进行投票（支持/反对）
 - 按投票数排序反馈
 - 实时更新投票统计
 
 ### 评论系统
+
 - 对反馈添加评论
 - 嵌套回复支持
 - 实时评论更新
 
 ### 下载统计
+
 - 软件版本管理
 - 下载统计跟踪
 - 平台兼容性
@@ -198,12 +205,14 @@ FRONTEND_URL=https://your-domain.com
 ## 🚀 部署
 
 ### 后端部署
+
 1. 构建项目并上传到服务器
 2. 安装依赖: `npm install --production`
 3. 配置环境变量
 4. 启动服务: `npm start`
 
 ### 前端部署
+
 1. 构建生产版本: `npm run build`
 2. 将 `dist` 目录部署到静态文件服务器
 3. 配置反向代理到后端API
@@ -226,11 +235,11 @@ FRONTEND_URL=https://your-domain.com
 
 - 在项目中提交 Issue
 - 使用应用内的反馈功能
-- 发送邮件至 support@example.com
 
 ## 📋 更新日志
 
 ### v1.0.0 (2024-01-15)
+
 - 🎉 首次发布
 - ✨ 完整的用户认证系统
 - ✨ 反馈管理和投票功能
