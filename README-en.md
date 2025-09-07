@@ -5,10 +5,10 @@ English | [**中文**](./README.md)
 A modern Everything search client that perfectly combines AI intelligence with ultra-fast local search. Supports natural language queries, automatically converts to Everything precise search syntax, making file searching simpler and more efficient than ever before.
 
 ## 🌟 Star History
+
 **Development is not easy, please give us a little star✨**
 
 [![Star History Chart](https://api.star-history.com/svg?repos=MaskerPRC/everything-ai-chat&type=Date)](https://star-history.com/#MaskerPRC/everything-ai-chat&Date)
-
 
 ## 👣Examples
 
@@ -21,14 +21,15 @@ A modern Everything search client that perfectly combines AI intelligence with u
 <img width="2512" height="1320" alt="image" src="https://github.com/user-attachments/assets/ded521b6-1c63-4988-aaf3-e4c1ad71117e" />
 
 ## 👀Welcome to join WeChat group
-https://100.agitao.net/
+
+<https://100.agitao.net/>
 
 ![100 AI Products Exchange Group](https://proxy.agitao.me/img)
-
 
 ## ✨ Core Features
 
 ### 🔧 Intelligent Automated Connection (Technical Highlight)
+
 - **One-click Everything Connection**: Automatically searches for Everything installation location, no manual configuration required
 - **Multi-strategy Search Algorithm**: Locates installation location through multiple strategies including registry, common paths, desktop shortcuts, etc.
 - **Intelligent Process Management**: Uses three-level process management strategy: graceful shutdown → force termination → advanced termination
@@ -37,25 +38,34 @@ https://100.agitao.net/
 - **Secure Credential Generation**: Automatically generates random username and password to ensure connection security
 
 ### 🧠 AI Intelligent Search
+
 - **Natural Language Understanding**: Input natural language like "today's PDF files", "videos larger than 10MB", AI automatically converts to precise search syntax
 - **OpenAI Integration**: Supports GPT-3.5/GPT-4 models, intelligently understands complex search intentions
 - **Local Optimization**: Even without AI configuration, search queries can be optimized through local rules
 
 ### ⚡ Ultra-fast Search Experience
+
 - **Everything Engine**: Based on the world's fastest file search engine Everything
 - **Real-time Results**: Millisecond-level search response, supports large capacity hard drives
 - **Smart Suggestions**: Provides search suggestions and quick access to search history
 
 ### 🎯 Precise Result Display
+
 - **Multi-dimensional Sorting**: Sort by file name, path, size, modification time, creation time, and other dimensions
 - **File Type Recognition**: Automatically recognizes file types and displays corresponding icons (documents📄, images🖼️, videos🎬, etc.)
 - **Detailed Information**: Displays complete information including file size, modification time, creation time, access time, attributes, etc.
 
 ### 🎨 Modern Interface
+
 - **Custom Title Bar**: Borderless design with integrated window control buttons
 - **Real-time Status Display**: Real-time monitoring of Everything connection status
 - **Search History**: Automatically saves and intelligently manages search history (up to 50 entries)
 - **Responsive Layout**: Adapts to window size, supports minimum size of 800x600
+- **Glassmorphism Effects**: Modern glassmorphism effects and gradient design
+- **System Tray**: System tray integration for convenient window management
+- **Debug Window**: Independent debug window with streaming AI response debugging
+- **File Context Menu**: Rich file operation menu with file type-specific actions
+- **Column Resizing**: Resizable file list columns with localStorage persistence
 
 ## Tech Stack
 
@@ -64,12 +74,17 @@ https://100.agitao.net/
 - **Database**: SQLite (search history storage)
 - **AI Service**: OpenAI GPT API
 - **Search Engine**: Everything HTTP API
+- **State Management**: Vue 3 Composition API
+- **Internationalization**: Vue I18n (supports 10 languages)
+- **Styling**: CSS3 + Modern UI Design
+- **Build Tools**: Vite + electron-builder
 
 ## System Requirements
 
 - Windows 7/8/10/11
 - Everything software (1.4.1+)
 - Node.js 16+
+- Network connection (for AI features and auto-updates)
 
 ## Installation Steps
 
@@ -80,6 +95,12 @@ https://100.agitao.net/
 3. Go to `Tools` → `Options` → `General`
 4. Check `Enable HTTP Server`
 5. Confirm port is 80 (default)
+
+**Or use the one-click connection feature**:
+
+- After launching the app, click "One-click Connect Everything" in settings
+- The system will automatically detect Everything installation location and configure HTTP service
+- Supports automatic port discovery and secure credential generation
 
 ### 2. Clone Project
 
@@ -101,6 +122,8 @@ If you want to use AI natural language conversion function, you need to configur
 1. After launching the app, click the settings button in the bottom right corner
 2. Enter your OpenAI API Key
 3. Select an appropriate model (GPT-3.5 Turbo recommended)
+4. Customize system prompts to optimize AI conversion effects
+5. Support for locally deployed AI services (no API Key required)
 
 ## Running the Application
 
@@ -124,12 +147,15 @@ npm run build:electron
 ## 🚀 User Guide
 
 ### Quick Start
+
 1. After launching the app, it will automatically detect Everything connection status
 2. Enter query content in the search box
 3. Supports three search methods:
 
 ### 💬 Natural Language Search (Recommended)
+
 After configuring OpenAI API, you can use natural language search:
+
 ```
 PDF files modified today
 Videos larger than 10MB
@@ -140,7 +166,9 @@ Excel files containing "report"
 ```
 
 ### 🔧 Everything Syntax Search
+
 Directly use Everything's powerful search syntax:
+
 ```
 *.pdf dm:today                    # PDFs modified today
 size:>10mb *.mp4;*.avi           # Video files larger than 10MB
@@ -151,7 +179,9 @@ path:desktop *.docx              # Word documents on desktop
 ```
 
 ### 🔍 Simple Keyword Search
+
 Directly enter file name or keywords:
+
 ```
 report.docx                      # Find Word documents containing "report"
 *.pdf                           # Find all PDF files
@@ -161,20 +191,24 @@ photoshop                       # Find files containing "photoshop"
 ### 🎯 Advanced Search Features
 
 #### File Size Filtering
+
 - `size:>100mb` - Files larger than 100MB
 - `size:<1kb` - Files smaller than 1KB
 - `size:1mb..100mb` - Files between 1MB and 100MB
 
 #### Time Filtering
+
 - `dm:today` - Files modified today
 - `dc:yesterday` - Files created yesterday
 - `da:thisweek` - Files accessed this week
 
 #### Path Filtering
+
 - `path:desktop` - Files in desktop path
 - `!path:temp` - Exclude files in temp folder
 
 #### File Type Combinations
+
 - `*.jpg;*.png;*.gif` - Common image formats
 - `*.mp4;*.avi;*.mkv` - Common video formats
 - `*.doc;*.docx;*.pdf` - Common document formats
@@ -182,22 +216,26 @@ photoshop                       # Find files containing "photoshop"
 ## ⌨️ Shortcuts and Operations
 
 ### Search Operations
+
 - `Enter` - Execute search
 - `↑/↓` - Browse search history
 - `Esc` - Clear search box
 - Click search suggestions - Quickly use preset searches
 
 ### File Operations
+
 - `Double-click file` - Open file with default program
 - `Right-click file` - Show file context menu
 - Click file path - Show file in File Explorer
 
 ### Interface Operations
+
 - Click column header - Sort by that column (click again to toggle ascending/descending)
 - `⚙️` Settings button - Configure OpenAI API and display options
 - Title bar `−` `□` `×` - Minimize, maximize, close window
 
 ### Result Management
+
 - `📤 Export Results` - Export search results to file
 - `🗑️ Clear Results` - Clear current search results
 - Search history dropdown - Quickly repeat previous searches
@@ -216,11 +254,14 @@ photoshop                       # Find files containing "photoshop"
 ### Application Launch Issues
 
 #### Application Fails to Start
+
 **Symptoms**: Application cannot start after running `npm run dev`
 **Solution Steps**:
+
 1. Ensure port 5173 is not occupied
 2. Terminate possible existing processes: `taskkill /f /im node.exe`
 3. Reinstall dependencies:
+
    ```bash
    rm -rf node_modules
    npm install
@@ -228,8 +269,10 @@ photoshop                       # Find files containing "photoshop"
    ```
 
 #### Electron Window Blank
+
 **Symptoms**: Application starts but shows blank window
 **Solutions**:
+
 1. Wait for Vue development server to fully start (usually takes 10-30 seconds)
 2. Check console for error messages
 3. Try refreshing window or restarting application
@@ -237,7 +280,9 @@ photoshop                       # Find files containing "photoshop"
 ### Everything Connection Issues
 
 #### Status Shows "Disconnected"
+
 **Solution Steps**:
+
 1. **Check if Everything is running**: Ensure Everything software is running in background
 2. **Enable HTTP Server**:
    - Open Everything → Tools → Options → HTTP
@@ -248,7 +293,9 @@ photoshop                       # Find files containing "photoshop"
 4. **Use one-click connection**: Click "One-click Connect Everything" in application settings
 
 #### Everything HTTP Service Cannot Start
+
 **Solutions**:
+
 1. Run Everything as administrator
 2. Change HTTP port (e.g., to 8080)
 3. Check Windows firewall settings
@@ -257,14 +304,18 @@ photoshop                       # Find files containing "photoshop"
 ### OpenAI API Issues
 
 #### API Request Failed
+
 **Common Errors and Solutions**:
+
 - **401 Unauthorized**: Incorrect API Key, please check and re-enter
 - **429 Too Many Requests**: Request frequency too high, please try again later
 - **403 Forbidden**: Insufficient account balance or invalid API Key
 - **Network Error**: Check network connection, or try changing API endpoint
 
 #### Poor Natural Language Conversion
+
 **Optimization Suggestions**:
+
 1. Use more specific descriptive words
 2. Try different expressions
 3. Check if appropriate AI model is selected (GPT-3.5-turbo recommended)
@@ -272,14 +323,18 @@ photoshop                       # Find files containing "photoshop"
 ### Search Function Issues
 
 #### Empty Search Results
+
 **Troubleshooting Steps**:
+
 1. **Check Everything Index**: Ensure Everything has completed file indexing
 2. **Verify Search Syntax**: Try using simpler keywords (e.g., `*.txt`)
 3. **Check File Permissions**: Ensure you have permission to access target folders
 4. **Rebuild Index**: Select "Tools → Rebuild Database" in Everything
 
 #### Slow Search Speed
+
 **Optimization Methods**:
+
 1. Reduce search result quantity limit
 2. Use more precise search conditions
 3. Ensure sufficient hard disk space
@@ -288,10 +343,13 @@ photoshop                       # Find files containing "photoshop"
 ### Interface Display Issues
 
 #### File Icons Display Abnormally
+
 **Solution**: Restart application, icon mapping will automatically fix
 
 #### Window Size Abnormal
-**Solutions**: 
+
+**Solutions**:
+
 1. Double-click title bar to restore window
 2. Right-click title bar to select window control options
 3. Restart application to restore default size
@@ -303,7 +361,7 @@ photoshop                       # Find files containing "photoshop"
 This project uses modern Electron + Vue 3 architecture with clear frontend-backend separation:
 
 ```
-everything-ai-chat/
+client/
 ├── src/
 │   ├── main/                    # Electron main process
 │   │   ├── main.js             # Main process entry, handles window management and IPC
@@ -317,39 +375,66 @@ everything-ai-chat/
 │   │   ├── main.js            # Vue application entry
 │   │   ├── index.html         # HTML template
 │   │   └── style.css          # Global styles
+│   ├── i18n/                  # Internationalization configuration
+│   │   ├── locales/           # Language files
+│   │   └── index.js           # i18n configuration
 │   └── database/              # Data storage (electron-store)
 ├── package.json               # Project configuration and dependencies
 ├── vite.config.js            # Vite build configuration
 ├── UI_DESIGN_SPEC_2.0.md     # UI design specification document
 └── README.md                 # Project documentation
+
+leading_web/
+├── backend/                  # Web backend
+│   ├── server.js             # Node.js server
+│   └── database/             # SQLite database
+├── frontend/                 # Web frontend
+│   ├── src/
+│   │   ├── views/            # Vue page components
+│   │   ├── components/       # Vue components
+│   │   └── main.js           # Vue application entry
+│   └── package.json          # Frontend configuration
+└── README.md                # Web version documentation
 ```
 
 ### Core Technical Components
 
 #### 🎨 Frontend Tech Stack
+
 - **Vue 3 Composition API**: Modern reactive development
 - **Vite**: Ultra-fast development server and build tool
-- **Custom CSS**: Carefully designed modern interface
+- **Vue I18n**: Multi-language internationalization support (10 languages)
+- **Custom CSS**: Carefully designed modern interface with glassmorphism effects and gradient design
 
 #### ⚙️ Backend Tech Stack
+
 - **Electron 37.x**: Cross-platform desktop application framework
 - **Node.js**: Backend logic processing
 - **electron-store**: Configuration and data persistence
 - **OpenAI API**: AI intelligent search conversion
+- **System Tray**: System tray integration and window management
+- **Auto-update**: GitHub Releases auto-update functionality
 
 #### 🔍 Search Engine Integration
+
 - **Everything HTTP API**: High-performance local file search
 - **Intelligent Query Optimization**: Local and AI dual query optimization
+- **Auto-connection Management**: Intelligent detection and configuration of Everything HTTP service
+- **Multi-strategy Process Management**: Three-level process management strategy: graceful shutdown → force termination → advanced termination
+- **Port Configuration**: Supports automatic and fixed port modes
+- **Secure Authentication**: Automatically generates username and password to protect HTTP service
 
 ### Development Environment Setup
 
 #### Required Tools
-- Node.js 16+ 
+
+- Node.js 16+
 - npm or yarn
 - Everything 1.4.1+
 - VS Code (recommended)
 
 #### Recommended VS Code Extensions
+
 ```json
 {
   "recommendations": [
@@ -364,6 +449,7 @@ everything-ai-chat/
 ### Adding New Features
 
 #### 1. Adding New Search Features
+
 ```javascript
 // Add new search method in src/main/everything-search.js
 async customSearch(query, options) {
@@ -372,6 +458,7 @@ async customSearch(query, options) {
 ```
 
 #### 2. Adding New UI Components
+
 ```vue
 <!-- Create new component in src/renderer/components/ -->
 <template>
@@ -386,6 +473,7 @@ export default {
 ```
 
 #### 3. Adding New IPC Communication
+
 ```javascript
 // Add IPC handler in src/main/main.js
 ipcMain.handle('new-feature', async (event, data) => {
@@ -401,38 +489,59 @@ contextBridge.exposeInMainWorld('electronAPI', {
 ### Build and Release
 
 #### Development Build
+
 ```bash
 npm run dev          # Start development environment
 npm run build        # Build Vue frontend
 ```
 
 #### Production Build
+
 ```bash
 npm run build:all    # Complete build (frontend + Electron)
 npm run dist         # Package as installer
 ```
 
 #### Build Artifacts
+
 - `dist-vue/` - Vue frontend build files
 - `release/` - Electron application installer
 
 ### Project Features
 
 #### 🔐 Security Design
+
 - Disable Node.js integration
 - Enable context isolation
 - Use preload scripts for secure communication
+- Automatically generate random username and password to protect HTTP service
+- Secure credential management and storage
 
 #### 📊 Performance Optimization
+
 - Vue 3 Composition API improves performance
 - Vite fast development and build
 - Virtual scrolling for search results (planned)
+- Intelligent caching mechanism
+- Optimized file search algorithm
 
 #### 🎨 Interface Design
+
 - Custom title bar
 - Modern UI design
 - Responsive layout
+- Glassmorphism effects and gradient design
+- Micro-interaction animations
 - Dark/light theme support (planned)
+- System tray integration
+- Independent debug window
+
+#### 🌐 Multi-platform Support
+
+- Windows desktop application
+- Web online version
+- Multi-language interface (10 languages)
+- Internationalized date and time formats
 
 ## 📄 License
 
@@ -443,12 +552,14 @@ MIT License - see [LICENSE](LICENSE) file for details
 We welcome all forms of contributions!
 
 ### Ways to Contribute
+
 - 🐛 **Report Issues**: Submit Issues when you find bugs
 - 💡 **Feature Suggestions**: Discuss good ideas in Discussions  
 - 🔧 **Code Contributions**: Fork the project and submit Pull Requests
 - 📚 **Documentation Improvements**: Help improve documentation and examples
 
 ### Submitting Pull Requests
+
 1. Fork this repository
 2. Create feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit changes (`git commit -m 'Add amazing feature'`)
@@ -456,6 +567,7 @@ We welcome all forms of contributions!
 5. Create Pull Request
 
 ### Development Standards
+
 - Follow existing code style
 - Add necessary comments
 - Update related documentation
@@ -464,17 +576,21 @@ We welcome all forms of contributions!
 ## 🆘 Support and Feedback
 
 ### Getting Help
+
 - 📖 **Read Documentation**: First check this README and related documents
 - 🔍 **Search Issues**: Search for similar issues in Issues
 - 💬 **Submit Issues**: Describe the problem in detail and provide necessary information
 
 ### Contact Methods
+
 - **GitHub Issues**: Report bugs and feature requests
 - **GitHub Discussions**: Technical discussions and Q&A
 - **Email**: Contact developers for urgent issues
 
 ### Issue Report Template
+
 When submitting issues, please include:
+
 - Operating system version
 - Everything version
 - Application version
